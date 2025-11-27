@@ -5,8 +5,10 @@ const CACHE_ASSETS = [
   "/style.css",
   "/manifest.json",
   "/FireBaseAuthService.js",
+  "/firebase-config.js",
   "/register.js",
-  "/serviceworker.js",
+  "/service-worker.js",
+  "/main.js",
   "/img/icon-192.png",
   "/img/icon-512.png"
 ];
@@ -42,4 +44,5 @@ self.addEventListener("fetch", (event) => {
       return response || fetch(event.request);
     })
   );
+
 });
