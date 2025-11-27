@@ -9,8 +9,8 @@ const CACHE_ASSETS = [
   "/register.js",
   "/service-worker.js",
   "/main.js",
-  "/img/icon-192.png",
-  "/img/icon-512.png"
+  "/icon-192.png",
+  "/icon-512.png"
 ];
 
 // Instala o Service Worker e adiciona os arquivos ao cache
@@ -46,3 +46,4 @@ self.addEventListener("fetch", (event) => {
   );
 
 });
+
